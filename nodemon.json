@@ -1,0 +1,6 @@
+{
+  "watch": ["api/src"],
+  "ext": "*",
+  "ignore": [],
+  "exec": "npx tsx ./api/src/index.ts"
+}
