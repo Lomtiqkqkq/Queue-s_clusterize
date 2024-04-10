@@ -31,6 +31,7 @@ if(cluster.isPrimary) {
     cluster.on('exit', (worker, code, signal)=>{
         console.log(`subCluster: ${worker.process.pid} died, code: ${code}, signal: ${signal}, restarting...`)
         cluster.fork()
+        //qwe
     })
 } else {
     accountsBootstrap()
